@@ -1,11 +1,15 @@
 # nmap_manager
 Script para realizar auditorias de seguridad de reda a traves de Nmap de manera organizada, desglosando la informacion segun lo que necesite el usuario.
-![Imagen de el menu principal](menu1.jpeg)
+
+<img src="menu1.jpeg)" alt="Imagen de el menu principal" width="300">
+
 
 ## Menu de opciones
 Este script esta equipado con una variedad de opciones para poder realizar una auditoria de seguridada de red completa, ademas que almacena la informacion
 en una carpeta de manera organizada, asi el usuario facilmente puede consultar la informacion despues de la auditoria.
-![Imagen de el menu de opciones para la auditoria de red](menu2.jpeg)
+
+<img src="menu2.jpeg)" alt="Imagen de el menu de opciones para la auditoria de red" width="300">
+
 ## Instalacion
 Ejecuta en tu terminal:
 ```bash
