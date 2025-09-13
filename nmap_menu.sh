@@ -1,11 +1,12 @@
 clear
 echo -e "\e[1;31m$(cat lotit)\e[0m"
 echo ""
-read -p "[-] Ingresa la IP o rango a escanear: " ip
+read -p "[-] Ingrese la IP o rango a escanear: " ip
 clear
 
 # Carpetas para almacenar la informacion
-mkdir -p Auditoria_$(date +%Y-%m-%d)-$ip
+
+mkdir Auditoria_$(date +%Y-%m-%d)
 
 # Bucle para repetir el menu hasta que se decida salir
 
@@ -14,7 +15,7 @@ do
 
 echo -e "\e[1;31m$(cat lotit)\e[0m"
 echo ""
-echo "[-] Seleccione el tipo de escaneo que desea realizar"
+echo -e "\033[33m[-] Seleccione el tipo de escaneo que desea realizar\033[0m"
 echo ""
 
 echo -e "\033[33m[-] Menu de opciones:\033[0m"
@@ -34,8 +35,7 @@ read -p "[-] Elige una opcion: " optScan
 echo ""
 
 # Carpetas para almacenar la informacion
-cd Auditoria_$(date +%Y-%m-%d)-$ip
-
+cd Auditoria_$(date +%Y-%m-%d)
 
 
 # Aqui esta el menu de casos segun la opcion
@@ -50,7 +50,6 @@ cd Auditoria_$(date +%Y-%m-%d)-$ip
 		clear
 		echo -e "\033[32m[-] escaneo completo, revise la carpeta\033[0m"
 		cd ..
-		echo ""
 		;;
 
 		"1")
@@ -146,4 +145,3 @@ cd Auditoria_$(date +%Y-%m-%d)-$ip
                 esac
 
 done
-

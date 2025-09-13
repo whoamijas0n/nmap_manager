@@ -6,6 +6,8 @@ do
 bash log.sh
 
 echo ""
+echo -e "\033[33m[-] Asegurate de iniciar este script con permisos de root\033[0m"
+echo ""
 echo -e "\033[33m[-] Menu de opciones:\033[0m"
 echo ""
 echo "[0] Instalar dependencias"
@@ -67,7 +69,7 @@ echo ""
 	    echo -e "\e[1;31m$(figlet -f slant "Escaneo de Red")\e[0m"
 	    #echo -e "\033[31m[-] Ejecutando Opción 1...\033[0m"
             echo ""
-	    bash nmap_menu.sh
+	    sudo bash nmap_menu.sh
 	    clear
 	    echo -e "\033[31m[-] Escaneo completado correctamente...\033[0m"
 	    echo ""
