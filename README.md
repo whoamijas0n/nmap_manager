@@ -12,12 +12,13 @@ Ejecuta en tu terminal:
 ```bash
 git clone https://github.com/whoamijas0n/nmap_manager
 cd nmap_manager
-bash nmap_manager.sh
+sudo bash nmap_manager.sh
 ```
 Para volver a utilizar el script simplemente vuelve a ejecutar:
 ```bash
-bash nmap_manager.sh
+sudo bash nmap_manager.sh
 ```
+Asegurate de siempre iniciar este script con permisos de root
 ## Dependencias
 Puedes instalar las dependencias desde el menu de el script.
 
