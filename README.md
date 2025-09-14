@@ -1,10 +1,10 @@
 ![Imagen de el menu de opciones para la auditoria de red](menu2.jpeg)
 # nmap_manager
-Script para realizar auditorias de seguridad de reda a traves de Nmap de manera organizada, desglosando la informacion segun lo que necesite el usuario.
+Script para realizar auditorias de seguridad de red a traves de Nmap para recolectar informacion de una direccion ip o rango, desglosando la informacion segun lo que necesite el usuario.
 
 
 ## Menu de opciones
-Este script esta equipado con una variedad de opciones para poder realizar una auditoria de seguridada de red completa, ademas que almacena la informacion
+Este script esta equipado con distintas opciones para que el usuario pueda escoger que tipo de escaneo desea ejectura, ademas que almacena la informacion
 en una carpeta de manera organizada, asi el usuario facilmente puede consultar la informacion despues de la auditoria.
 
 ## Instalacion
