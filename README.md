@@ -4,7 +4,7 @@ Script para realizar auditorias de seguridad de red a traves de Nmap para recole
 
 
 ## Menu de opciones
-Este script esta equipado con distintas opciones para que el usuario pueda escoger que tipo de escaneo desea ejectura, ademas que almacena la informacion
+Este script esta equipado con distintas opciones para que el usuario pueda escoger que tipo de escaneo desea ejecutar, ademas que almacena la informacion
 en una carpeta de manera organizada, asi el usuario facilmente puede consultar la informacion despues de la auditoria.
 
 ## Instalacion
